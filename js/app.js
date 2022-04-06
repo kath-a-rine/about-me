@@ -65,3 +65,20 @@ if(questionFive === 'yes' || questionFive === 'y'){
   //console.log(`I'm not sure I understand your answer, but that is incorrect. Thank you for playing along and learning a little bit about me ${siteVisitor}.`);
   alert(`I'm not sure I understand your answer, but that is incorrect. Thank you for playing along and learning a little bit about me ${siteVisitor}.`);
 }
+
+//TA David, Guy, Vinny, and Elizabeth helped with q6.
+
+for(let i = 0; i < 4; i++){
+
+  let age = 34;
+  let questionSix = parseInt(prompt('How old am I?'));
+  if(questionSix === age){
+    alert('You are correct!'); break;
+  } else if(questionSix < age){
+    alert('Your answer is too low.');
+  } else if(questionSix > age){
+    alert('Your answer is too high.');
+  } else {
+    alert('I sorry. You have run out of turns. The correct answer is 34.');
+  }
+}
