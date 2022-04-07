@@ -111,20 +111,23 @@ q6();
 
 //Guy and Vinny helped with q7.
 
-let myArray = ['action', 'comedy', 'action-comedy', 'thriller'];
-
-for(let i = 0; i < 6; i++){
-
-  let questionSeven = prompt('What is my favorite movie genre?').toLowerCase();
-
-  for(let a = 0; a < myArray.length; a++){
-    if(questionSeven === myArray[a]){
-      alert('You are correct!');
-      i = 6;
-      score = score + 1;
+function q7() {
+  let myArray = ['action', 'comedy', 'action-comedy', 'thriller'];
+  
+  for(let i = 0; i < 6; i++){
+  
+    let questionSeven = prompt('What is my favorite movie genre?').toLowerCase();
+  
+    for(let a = 0; a < myArray.length; a++){
+      if(questionSeven === myArray[a]){
+        alert('You are correct!');
+        i = 6;
+        score = score + 1;
+      }
     }
   }
 }
+q7();
 
 alert('Great job! You got ' + score + ' questions correct!');
 
