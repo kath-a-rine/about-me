@@ -70,19 +70,22 @@ function q4() {
 }
 q4();
 
-let questionFive = prompt('Do I like to eat out at restaurants?').toLowerCase();
-
-if(questionFive === 'yes' || questionFive === 'y'){
-  //console.log(`You would be right on that one! Thank you for playing along and learning a little bit about me ${siteVisitor}.`);
-  alert(`You would be right on that one ${siteVisitor}!`);
-  score = score + 1;
-} else if(questionFive === 'no' || questionFive ==='n'){
-  //console.log(`That is incorrect. Thank you for playing along and learning a little bit about me ${siteVisitor}!`);
-  alert(`That is incorrect ${siteVisitor}!`);
-} else {
-  //console.log(`I'm not sure I understand your answer, but that is incorrect. Thank you for playing along and learning a little bit about me ${siteVisitor}.`);
-  alert(`I'm not sure I understand your answer, but that is incorrect ${siteVisitor}.`);
+function q5() {
+  let questionFive = prompt('Do I like to eat out at restaurants?').toLowerCase();
+  
+  if(questionFive === 'yes' || questionFive === 'y'){
+    //console.log(`You would be right on that one! Thank you for playing along and learning a little bit about me ${siteVisitor}.`);
+    alert(`You would be right on that one ${siteVisitor}!`);
+    score = score + 1;
+  } else if(questionFive === 'no' || questionFive ==='n'){
+    //console.log(`That is incorrect. Thank you for playing along and learning a little bit about me ${siteVisitor}!`);
+    alert(`That is incorrect ${siteVisitor}!`);
+  } else {
+    //console.log(`I'm not sure I understand your answer, but that is incorrect. Thank you for playing along and learning a little bit about me ${siteVisitor}.`);
+    alert(`I'm not sure I understand your answer, but that is incorrect ${siteVisitor}.`);
+  }
 }
+q5();
 
 //TA David, Guy, Vinny, and Elizabeth helped with q6.
 
