@@ -53,19 +53,22 @@ function q3() {
 }
 q3();
 
-let questionFour = prompt('Do I own my house?').toLowerCase();
-
-if(questionFour === 'yes' || questionFour === 'y'){
-  //console.log('You are correct!');
-  alert('You are correct!');
-  score = score + 1;
-} else if(questionFour === 'no' || questionFour ==='n'){
-  //console.log('Unfortunately you are incorrect.');
-  alert('Unfortunately you are incorrect.');
-} else {
-  //console.log('Not sure why you answered that way, but it is incorrect.');
-  alert('Not sure why you answered that way, but it is incorrect.');
+function q4() {
+  let questionFour = prompt('Do I own my house?').toLowerCase();
+  
+  if(questionFour === 'yes' || questionFour === 'y'){
+    //console.log('You are correct!');
+    alert('You are correct!');
+    score = score + 1;
+  } else if(questionFour === 'no' || questionFour ==='n'){
+    //console.log('Unfortunately you are incorrect.');
+    alert('Unfortunately you are incorrect.');
+  } else {
+    //console.log('Not sure why you answered that way, but it is incorrect.');
+    alert('Not sure why you answered that way, but it is incorrect.');
+  }
 }
+q4();
 
 let questionFive = prompt('Do I like to eat out at restaurants?').toLowerCase();
 
