@@ -26,14 +26,15 @@ h3 {
   height: 35px;
   margin: 15px;
   border-radius: 15px;
-  border: red solid;
 }
 
 section {
- border: red solid;
  padding: 1em;
  margin: 20px;
+}
 
+#bio {
+  text-align: center;
 }
 
 img {
@@ -41,4 +42,9 @@ img {
   margin: 20px;
   position: relative;
   border-radius: 10px;
+}
+
+ul {
+  list-style-type: circle;
+  padding-left: 10px;
 }
