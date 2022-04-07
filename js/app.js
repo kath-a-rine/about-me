@@ -22,19 +22,22 @@ function q1() {
 }
 q1();
 
-let questionTwo = prompt('Am I married?').toLowerCase();
-
-if(questionTwo === 'yes' || questionTwo === 'y'){
-  //console.log('You are correct!');
-  alert('You are correct!');
-  score = score + 1;
-} else if(questionTwo === 'no' || questionTwo ==='n'){
-  //console.log('Unfortunately you are incorrect.');
-  alert('Unfortunately you are incorrect.');
-} else {
-  //console.log('Ah. You would be wrong about that one.');
-  alert('Ah. You would be wrong about that one.');
+function q2() {
+  let questionTwo = prompt('Am I married?').toLowerCase();
+  
+  if(questionTwo === 'yes' || questionTwo === 'y'){
+    //console.log('You are correct!');
+    alert('You are correct!');
+    score = score + 1;
+  } else if(questionTwo === 'no' || questionTwo ==='n'){
+    //console.log('Unfortunately you are incorrect.');
+    alert('Unfortunately you are incorrect.');
+  } else {
+    //console.log('Ah. You would be wrong about that one.');
+    alert('Ah. You would be wrong about that one.');
+  }
 }
+q2();
 
 let questionThree = prompt('Do I live in Olympia, Washington?').toLowerCase();
 
