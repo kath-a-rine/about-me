@@ -91,7 +91,6 @@ q5();
 
 function q6() {
   for(let i = 0; i < 4; i++){
-  
     let age = 34;
     let questionSix = parseInt(prompt('How old am I?'));
     if(questionSix === age){
@@ -115,9 +114,7 @@ function q7() {
   let myArray = ['action', 'comedy', 'action-comedy', 'thriller'];
   
   for(let i = 0; i < 6; i++){
-  
     let questionSeven = prompt('What is my favorite movie genre?').toLowerCase();
-  
     for(let a = 0; a < myArray.length; a++){
       if(questionSeven === myArray[a]){
         alert('You are correct!');

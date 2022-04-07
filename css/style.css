@@ -7,28 +7,38 @@ body {
 
 h1 {
   background-color: #f2cc8f;
-  height: 75px;
+  height: 50px;
   font-weight: 600;
   font-size: 50px;
+  text-align: center;
+  padding: 1em;
   border-style:ridge;
   border-color: #e07a5f;
   border-width: 30px;
-  padding: 20px 40px 20px 40px;
+  border-radius: 15px;
 }
 
 h3 {
   background-color: #81b29a;
-  height: 35px;
+  text-align: center;
+  font-size: 30px;
   padding: 10px;
+  height: 35px;
   margin: 15px;
+  border-radius: 15px;
+  border: red solid;
+}
+
+section {
+ border: red solid;
+ padding: 1em;
+ margin: 20px;
+
 }
 
 img {
   height: 350px;
   margin: 20px;
-
-}
-
-ul {
-
+  position: relative;
+  border-radius: 10px;
 }
