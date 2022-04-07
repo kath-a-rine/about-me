@@ -39,16 +39,19 @@ function q2() {
 }
 q2();
 
-let questionThree = prompt('Do I live in Olympia, Washington?').toLowerCase();
-
-if(questionThree === 'yes' || questionThree === 'y'){
-  //console.log('Correct! How did you know?');
-  alert('Correct! How did you know?');
-  score = score + 1;
-} else {
-  //console.log('Wrong answer buddy.');
-  alert('Wrong answer buddy.');
+function q3() {
+  let questionThree = prompt('Do I live in Olympia, Washington?').toLowerCase();
+  
+  if(questionThree === 'yes' || questionThree === 'y'){
+    //console.log('Correct! How did you know?');
+    alert('Correct! How did you know?');
+    score = score + 1;
+  } else {
+    //console.log('Wrong answer buddy.');
+    alert('Wrong answer buddy.');
+  }
 }
+q3();
 
 let questionFour = prompt('Do I own my house?').toLowerCase();
 
