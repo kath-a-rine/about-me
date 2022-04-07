@@ -89,22 +89,25 @@ q5();
 
 //TA David, Guy, Vinny, and Elizabeth helped with q6.
 
-for(let i = 0; i < 4; i++){
-
-  let age = 34;
-  let questionSix = parseInt(prompt('How old am I?'));
-  if(questionSix === age){
-    alert('You are correct!');
-    score = score + 1;
-    break;
-  } else if((questionSix < age) && (i <= 2)){
-    alert('Your answer is too low.');
-  } else if((questionSix > age) && (i <= 2)){
-    alert('Your answer is too high.');
-  } else {
-    alert('I\'m sorry. You have run out of turns. The correct answer is 34.');
+function q6() {
+  for(let i = 0; i < 4; i++){
+  
+    let age = 34;
+    let questionSix = parseInt(prompt('How old am I?'));
+    if(questionSix === age){
+      alert('You are correct!');
+      score = score + 1;
+      break;
+    } else if((questionSix < age) && (i <= 2)){
+      alert('Your answer is too low.');
+    } else if((questionSix > age) && (i <= 2)){
+      alert('Your answer is too high.');
+    } else {
+      alert('I\'m sorry. You have run out of turns. The correct answer is 34.');
+    }
   }
 }
+q6();
 
 //Guy and Vinny helped with q7.
 
