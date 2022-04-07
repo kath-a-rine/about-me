@@ -5,19 +5,22 @@ let siteVisitor = prompt('Hey! What is your name?');
 
 alert(`Welcome ${siteVisitor}, let's play a guessing game. Please answer Yes or No.`);
 
-let questionOne = prompt('Do I have a cat?').toLowerCase();
-
-if(questionOne === 'yes' || questionOne === 'y'){
-  //console.log('You are correct!');
-  alert('You are correct!');
-  score = score + 1;
-} else if(questionOne === 'no' || questionOne === 'n'){
-  //console.log('Sorry, that is the wrong answer);
-  alert('Sorry, that is the wrong answer');
-} else {
-  //console.log('Better luck next time! Now on to the next question.');
-  alert('Better luck next time! Now on to the next question.');
+function q1() {
+  let questionOne = prompt('Do I have a cat?').toLowerCase();
+  
+  if(questionOne === 'yes' || questionOne === 'y'){
+    //console.log('You are correct!');
+    alert('You are correct!');
+    score = score + 1;
+  } else if(questionOne === 'no' || questionOne === 'n'){
+    //console.log('Sorry, that is the wrong answer);
+    alert('Sorry, that is the wrong answer');
+  } else {
+    //console.log('Better luck next time! Now on to the next question.');
+    alert('Better luck next time! Now on to the next question.');
+  }
 }
+q1();
 
 let questionTwo = prompt('Am I married?').toLowerCase();
 
